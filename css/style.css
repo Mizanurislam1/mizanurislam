@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap');
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    background-color: aliceblue;
+    scroll-behavior: smooth;
+}
+.navbar{
+    height: 10vh;
+    width: 100%;
+    background-color: azure;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 0px 50px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+.navbar .logo span{
+    font-size: 50px;
+}
+.navbar .logo span:nth-child(2){
+    color: brown;
+}
+.navbar .menu ul{
+    display: flex;
+}
+.navbar .menu ul li{
+    list-style: none;
+    margin: 0px 15px;
+    padding: 4px 8px;
+    border-radius: 3px;
+    transition: all 0.3s ease-in;
+    transform-origin: center;
+}
+.navbar .menu ul li:hover{
+    background: rgb(248, 188, 188);
+}
+#home{
+    height: 90vh;
+    width: 100%;
+    background-image: linear-gradient(rgb(250, 215, 215),rgb(200, 201, 255),rgb(216, 250, 216));
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.home .text-container .text-1{
+    font-size: 30px;
+}
+
+.home .text-container .text-2{
+    font-size: 80px;
+    font-weight: bold;
+}
+.home .text-container .text-3{
+     font-size: 45px;
+}
+.home .text-container .text-3 .auto-typing{
+    color: brown;
+}
+.home a{
+    font-size: 20px;
+    background: rgb(165, 41, 41);
+    padding: 8px 16px;
+    border-radius: 4px;
+    color: white;
+}
+.home a:hover{
+    background: transparent;
+    color: black;
+    border: 1px solid black;
+    transition: all 0.3s ease-in-out;
+}
+.home .img-box .box-layer-1{
+    height: 300px;
+    width: 300px;
+    background-color: aliceblue;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 12px rgb(201, 199, 199);
+}
+.home .img-box .box-layer-2{
+    height: 280px;
+    width: 280px;
+    background-color: rgb(225, 242, 255);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* box-shadow: 2px 2px 12px rgb(223, 222, 222); */
+}
+.home .img-box .box-layer-3{
+    height: 260px;
+    width: 260px;
+    background-color: rgb(190, 225, 252);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* box-shadow: 2px 2px 12px rgb(223, 222, 222); */
+}
+.home .img-box .box-layer-3 img{
+    /* height: 300px; */
+    width: 300px;
+    margin-top: -120px;
+    margin-left: -76px;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+.home .img-box .box-layer-3 .img-text-1{
+    margin-top: -120px;
+    margin-left: 0px;
+    z-index: 999;
+    padding: 6px 8px;
+    border-radius: 3px;
+    background-image: linear-gradient(rgb(250, 232, 232),rgb(234, 253, 234),rgb(233, 233, 255));
+}
+.home .img-box .box-layer-3 .img-text-2{
+    margin-top: 0px;
+    margin-left: -70px;
+    padding: 6px 8px;
+    border-radius: 3px;
+    background-image: linear-gradient(rgb(250, 232, 232),rgb(234, 253, 234),rgb(233, 233, 255));
+}
+.about{
+    height: 100vh;
+    /* background-color: black; */
+}
+.about .max-width .about-content .about-title{
+    font-family: 'Tangerine', cursive;
+    font-size: 60px;
+    text-align: center;
+}
+.about .max-width .about-content .column-left .about-img{
+    height: 67vh;
+    width: 27vw;
+    padding: 0px 0px;
+    background: red;
+    border-radius: 6px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.about .max-width .about-content .column-left .about-img img{
+    height: 70vh;
+    width: 100%;
+    background: red;
+}
+.about .max-width .about-content .d-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.about .max-width .about-content .row{
+    padding: 10px 50px;
+}
+.about .max-width .about-content .row .column-right{
+    width: 60vw;
+    height: 67vh;
+    padding: 0px 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    box-shadow: 2px 2px 20px rgb(189, 187, 187);
+    background: linear-gradient(rgb(205, 252, 205),rgb(248, 202, 202),rgb(209, 209, 248));
+}
+.column-right .text{
+    font-size: 25px;
+}
+.column-right .text #about-name{
+    font-size: 25px;
+    color: red;
+}
+.column-right .text .typing-2{
+    color: red;
+}
+.column-right a{
+    background: red;
+    padding: 9px 10px;
+    color: white;
+    margin: 10px 0px;
+    border-radius: 3px;
+}
+.service h2{
+    text-align: center;
+}
+.service-content .d-flex .card{
+    height: 200px;
+    width: 100%;
+    background: linear-gradient(white,rgb(250, 219, 219));
+    margin: 10px 30px;
+    display: flex;
+    flex: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    box-shadow: 2px 2px 20px rgb(199, 195, 195);
+}
+.d-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 90px;
+}
