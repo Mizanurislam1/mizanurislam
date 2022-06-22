@@ -383,7 +383,7 @@ h2{
     height: 10vh;
     width: 100%;
     display: flex;
-
+    bottom: 0px;
     /* text-align: center; */
     background: #282828;
     margin-top: 20px;
