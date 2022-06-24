@@ -14,9 +14,6 @@ body{
     background-color: aliceblue;
     scroll-behavior: smooth;
 }
-.wrapper{
-    height: 100vh;
-}
 .navbar{
     height: 10vh;
     width: 100%;
