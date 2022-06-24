@@ -146,9 +146,8 @@
 
                     </div>
                 </div>
-            </div>
-        </section>
-
+            </section>
+            
 
         <!--contact section starts here  -->
         <section class="contact">
@@ -207,18 +206,18 @@
                 <div class="column-right">
                      <form action="" method="post" class="myform">
                         <div class="name form-group">
-                            Name: <input type="text">
+                            Name: <input type="text" id="name">
                         </div>
                         <div class="Phone form-group">
-                            Phone: <input type="number">
+                            Phone: <input type="number" id="phone">
                         </div>
                         <div class="email form-group">
-                            Email: <input type="email">
+                            Email: <input type="email" id="email">
                         </div>
                         <div class="message form-group">
-                            Message: <textarea name="" id="" cols="21" rows="4"></textarea>
+                            Message: <textarea name="" id="message" cols="21" rows="4"></textarea>
                         </div>
-                        <button type="submit" class="button">message</button>
+                        <button type="submit" class="button" onclick="return submit()">message</button>
                      </form>
                 </div>
              </div>
@@ -228,7 +227,8 @@
         <section class="footer">
            <span>  ©<a href="">Mizanur Islam</a>2022 All Right Reserved.</span>
         </section>
-    </div>
+    <!-- </div> -->
+</div>
 </body>
 <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
 <script src="script.js"></script>
